@@ -1,11 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const gameBoard = document.getElementById('game-board');
     const startButton = document.getElementById('start-button');
+    const hintText = document.getElementById('hint-text');
 
     // Function to start the game
     function startGame() {
         // Clear the game board
         gameBoard.innerHTML = '';
+
+        // Show the hint text
+        hintText.style.display = 'block';
 
         // Create a giant element (e.g., a large circle)
         const giantElement = document.createElement('div');
