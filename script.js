@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         giantElement.classList.add('giant-element');
         giantElement.style.width = '100px';
         giantElement.style.height = '100px';
-        giantElement.style.backgroundColor = '#ff6347';
+        giantElement.style.backgroundColor = '#ffff00';
         giantElement.style.borderRadius = '50%';
         giantElement.style.position = 'absolute';
         giantElement.style.left = '50%';
